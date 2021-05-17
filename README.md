@@ -1,4 +1,4 @@
-# RabbitMQ-and-binance
+# RabbitMQ
 
-Its a trader with rabbit mq and make your job faster and more efficient than you think
-it is part of a bigger project which gives from client the api key nad api secret and some trade futures like isde and amount and do the job. its a test for my robot keep tune
+To response fast to a stream of orders, Rabbit MQ is a good choice to use. It is possible to make multiple parallel workers. Also if it use with seprated imaginary cores of the system the process will be very high in handling the requests. 
+It is possible to get back answer of each at end of the work of each worker.
